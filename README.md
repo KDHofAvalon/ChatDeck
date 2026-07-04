@@ -48,7 +48,9 @@ fields in this plugin's global settings page
 # Final Word
 
 Is this messy? Yes.
+
 Does it work? Yes. (To the best of my knowledge)
+
 Is it perfect? Hell no!
 
 However given that I started this project in June 2026, after 15+ years of 
