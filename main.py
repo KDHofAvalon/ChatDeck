@@ -81,10 +81,10 @@ class ChatDeck(PluginBase):
 
         # Register plugin
         self.register(
-            plugin_name=app_manifest.get("name"),
-            github_repo=app_manifest.get("github"),
-            plugin_version=app_manifest.get("version"),
-            app_version=app_manifest.get("app-version"),
+            plugin_name="ChatDeck",
+            github_repo="https://codeberg.org/LanaTheRaven/ChatDeck",
+            plugin_version="0.1.0",
+            app_version="1.5.0-beta.14",
         )
 
     def _setup_backend(self) -> bool:
