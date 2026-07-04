@@ -82,7 +82,7 @@ class ChatDeck(PluginBase):
         # Register plugin
         self.register(
             plugin_name="ChatDeck",
-            github_repo="https://codeberg.org/LanaTheRaven/ChatDeck",
+            github_repo="https://github.com/KDHofAvalon/ChatDeck",
             plugin_version="0.1.0",
             app_version="1.5.0-beta.14",
         )
