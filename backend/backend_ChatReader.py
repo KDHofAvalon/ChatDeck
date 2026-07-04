@@ -83,6 +83,8 @@ class BackendChatReader(BackendBase):
             self.auth_changed = False
         elif caller == "frontend":
             self.auth_changed = True
+            if not self.is_ready:
+                self.ready_state(True)
 
     def settings_updated(self):
         settings = self.frontend.get_settings()
