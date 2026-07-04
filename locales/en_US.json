@@ -1,0 +1,19 @@
+{
+    "plugin.name": "ChatDeck",
+    "ui.ready.message": "Ready to receive!",
+    "actions.chat-dial.name": "Chat Dial",
+    "actions.chat-keys.name": "Chat Keys",
+    "action.settings.url-method.label": "HTTP Method to Use",
+    "action.settings.url-method.subtitle": "GET and POST are supported",
+    "action.settings.dest-url.label": "Webhook URL",
+    "action.settings.username-var.label": "Webhook Username Variable",
+    "action.settings.message-var.label": "Webhook Message Variable",
+    "settings.title": "ChatDeck - Plugin Settings",
+    "settings.app-id.label": "Twitch Client ID",
+    "settings.app-secret.label": "Twitch Client Secret",
+    "settings.target-channel.label": "Twitch Channel to Read",
+    "settings.twitch-auth.label": "Authorize with Twitch",
+    "settings.ignored-users.label": "Users to Ignore Messages From",
+    "settings.max-messages.label": "Max Number of Messages to Keep",
+    "settings.max-messages.subtitle": "Minimum 10, Maximum 250"
+}

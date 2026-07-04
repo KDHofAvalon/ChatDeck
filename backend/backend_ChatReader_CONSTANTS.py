@@ -1,0 +1,10 @@
+KEY_APP_ID = "app_id"
+DEFAULT_APP_ID = ""
+KEY_APP_SECRET = "app_secret"
+DEFAULT_APP_SECRET = ""
+KEY_TARGET_CHANNEL = "target_channel"
+DEFAULT_TARGET_CHANNEL = ""
+KEY_IGNORED_USERS = "ignored_users"
+DEFAULT_IGNORED_USERS = []
+KEY_MAX_MESSAGES = "max_messages"
+DEFAULT_MAX_MESSAGES = 10  # count
