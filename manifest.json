@@ -6,7 +6,7 @@
     "minimum-app-version": "1.5.0",
     "id": "com_LanaTheRaven_ChatDeck",
     "github": "https://github.com/KDHofAvalon/ChatDeck",
-    "thumbnail": "assets/thumb.jpg",
+    "thumbnail": "store/Thumbnail.jpg",
     "descriptions": {
         "en_US": "Puts Twitch chat messages on dials and keys for quick selection and export to ChatBots."
     },
