@@ -82,10 +82,7 @@ class BackendChatReader(BackendBase):
         if caller == "backend":
             self.auth_changed = False
         elif caller == "frontend":
-            if os.path.exists(self.auth_path):
-                self.auth_changed = True
-            else:
-                self.pull_settings(True)
+            self.auth_changed = True
 
     def settings_updated(self):
         settings = self.frontend.get_settings()

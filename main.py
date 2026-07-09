@@ -49,8 +49,11 @@ class ChatDeck(PluginBase):
         self._settings_manager = PluginSettings(self)
         self.has_plugin_settings = False
 
-        # Start backend
-        self._setup_backend()
+        # Start backend, if already authenticated
+        if os.path.exists(
+            self.settings_path.replace("settings.json", "twitch_auth.json")
+        ):
+            self._setup_backend()
 
         # Register actions
         self.chat_dial_holder = ActionHolder(
@@ -97,8 +100,14 @@ class ChatDeck(PluginBase):
         )
 
     def auth_callback(self):
-        # Tell backend to update settings
-        self.backend.auth_updated("frontend")
+        if not os.path.exists(
+            self.settings_path.replace("settings.json", "twitch_auth.json")
+        ):
+            # Launch backend only after supplying initial settings
+            self._setup_backend()
+        else:
+            # Tell backend to update settings
+            self.backend.auth_updated("frontend")
 
     def settings_callback(self):
         self.backend.settings_updated()
