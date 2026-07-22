@@ -45,6 +45,15 @@ Twitch dev console. You can do this by following these instructions:
 8. Copy and paste the "Cient ID" and "Client Secret" into their respective
 fields in this plugin's global settings page
 
+# Contributing
+
+If you wish to contribute to this project, **PLEASE** do so from the [Codeberg](https://codeberg.org/LanaTheRaven/ChatDeck)
+page/repository, not GitHub. Codeberg is the main platform, the GitHub exists
+only for eventual inclusion in the StreamController store, is intended to be a
+read-only mirror, and will be deleted the instant StreamController and its store
+supports other forges. This holds true for all contributions -- whether they be
+code, bug reports, or anything else you can think of. Thank you!
+
 # Final Word
 
 Is this messy? Yes.
